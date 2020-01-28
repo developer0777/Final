@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         String message_web = web_msg.getText().toString();
         ShareCompat.IntentBuilder.from(this)
                 .setType("text/plain")
-                .setChooserTitle("Message to share")
+                .setChooserTitle("Message")
                 .setText(message_web)
                 .startChooser();
 
